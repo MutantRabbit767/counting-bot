@@ -1,4 +1,4 @@
-//This was made on my 14th birthday!!! -Cohen Schellenberg
+//This was made on my 14th birthday!!! -Mutant
 
 const { Client, MessageEmbed } = require('discord.js');
 const bot = new Client;

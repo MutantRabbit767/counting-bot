@@ -1,5 +1,5 @@
 # counting-bot
-Hello! Thanks for reading the docs for this bot, if you would like to add this bot to your server click [here](https://discord.com/api/oauth2/authorize?client_id=759932294026362900&permissions=354368&scope=bot).
+Hello! Thanks for reading the Counting bots repository for this bot, if you would like to add this bot to your server click [here](https://discord.com/api/oauth2/authorize?client_id=759932294026362900&permissions=354368&scope=bot).
 
 ## Setup
 ### In the bot.js file

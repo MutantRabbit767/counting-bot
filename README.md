@@ -35,4 +35,4 @@ node shards.js
 and voila! Your bot should go online!!
 
 ## Liscense
-[Read here!!!](https://github.com/MutantRabbit767/counting-bot/blob/master/LICENSE).
+[Read here!!!](https://github.com/MutantRabbit767/counting-bot/blob/master/LICENSE)

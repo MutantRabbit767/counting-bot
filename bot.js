@@ -2,7 +2,7 @@
 
 const { Client, MessageEmbed } = require('discord.js');
 const bot = new Client;
-const token = process.env.token;
+const token = 'your-token-goes-here';
 const mongoose = require('mongoose');
 
 mongoose.connect("mongodb+srv://<user>:<password>@<cluster-url><database-name>?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).catch(err => {

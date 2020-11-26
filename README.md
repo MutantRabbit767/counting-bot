@@ -14,8 +14,8 @@ mongoose.connect("mongodb+srv://<user>:<password>@<cluster-url><database-name>?r
 **If you don't know how to get a database and a url.**
 If you want to start with a free 500MB database thats always online, you can head over to [MongoDB](https://www.mongodb.com/) and create an account. Upon signing up you will be brought to a page that asks you to make an organization and a project, pick JavaScript for the preffered language. On the right side of the page that it redirects you to, there will be an option for a *Shared Cluster* under that, press *Create Cluster*. From here you can pick AWS and pick a region thats closest to you (for fast read and write times), the rest you can leave defaulted, just click *Create Cluster*. Very nice! You created your first cluster. Now on the left side of the tab click *Network Access*, and then click *add IP Adcress*, select your IP or click allow from anywhere. Now on the left side click on *Add a new Database user* and make whatever username you see fit, generate or make your own password **make sure to copy and paste the password into a document of some sort**. Now click on *Clusters* and click *Collections*, then click *Add my own data* and make a database name and a random collection name, the collection name can be deleted after your first data stored, so don't worry about what you put in that field. Now that you have done that click on *Clusters* again from the left side of the menu, and click *Connect*. Now click *Connect your application*, click copy and paste that into the double quotation marks from the last section of this README, make sure to replace the <password> with the password you made earlier and replace <dbname> with the database name from what you made earlier.
  *If you followed the instructions properly, you can continue to the next steps.*
-
-**Skip to here if you already know how to get the URL**
+\n
+**Skip to here if you already know how to get the URL** \n
 Then you will want to go to [Discords Developer Portal](https://discord.com/developers/applications/) and make yourself an app and a bot, then copy the token and paste it here.
 ```javascript
 const token = 'your-bot-token-here';
